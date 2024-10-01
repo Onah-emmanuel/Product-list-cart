@@ -1,0 +1,82 @@
+.desserts {
+    font-size: 41px;
+    font-family: sans-serif;
+    margin: 30px 0 30px 40px;
+}
+
+* {
+    margin: 0 0 0 6px;
+    background-color: hsl(13, 31%, 94%);
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+.div1 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 span i {
+    font-size: 30px;
+    color: hsl(12, 20%, 44%);
+}
+.check {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px 0 30px 40px;
+}
+
+
+
+.sections {
+    display: flex;
+    margin-bottom: 5%;
+    width: 70%;
+    
+}
+ 
+.btn {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    padding-right: 10px;
+}
+.btn img {
+    width: 95%;
+    border-radius: 5%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.btn button {
+    height: 15%;
+    width: 60%;
+    border-radius: 200px;
+    border: 1px solid hsl(7, 20%, 60%);
+    margin-top: -20px;
+    font-size: 95%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    font-weight: 750;
+    color: hsl(14, 65%, 9%);
+}
+.btn button i {
+    color: hsl(7, 20%, 60%);
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
