@@ -9,6 +9,23 @@
     background-color: hsl(13, 31%, 94%);
 }
 
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 80%;
+    margin: 1% 10%;
+    font-size: 110%;
+    color: hsl(12, 20%, 44%);
+   font-family: sans-serif;
+}
+
+.category h2:hover {
+    font-size: 160%;
+}
+
+
+
 .div1 {
     display: flex;
     justify-content: space-between;
@@ -35,7 +52,7 @@
 
 .sections {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 1% ;
     width: 70%;
     
 }
@@ -49,6 +66,8 @@
     height: 300px;
     width: 300px;
     padding-right: 10px;
+    
+    
 }
 .btn img {
     width: 95%;
@@ -56,6 +75,7 @@
     height: 80%;
     background-size: contain;
     background-repeat: no-repeat;
+    
 }
 
 
@@ -79,4 +99,35 @@
     margin-right: 10px;
     font-size: 20px;
     
+}
+.sections div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+}
+
+.sections h3 {
+    font-family: sans-serif ;
+    color:  hsl(7, 20%, 60%);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sections h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 570;
+    margin-top: 10px;
+    color: hsl(14, 65%, 9%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.sections h2 i {
+    font-size: 21px;
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 1px;
 }
